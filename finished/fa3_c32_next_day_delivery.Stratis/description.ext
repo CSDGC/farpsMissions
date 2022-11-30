@@ -1,4 +1,4 @@
-fa3_version[] = {3,5,6}; // WARNING: DO NOT CHANGE THIS LINE
+fa3_version[] = {3,5,7}; // WARNING: DO NOT CHANGE THIS LINE
 
 // ============================================================================================
 // F3 - Loading Screen
@@ -156,13 +156,6 @@ class Params
 	            texts[] = {"No","Yes"};
 	            default = 0;
 	    };
-			class c_param_snow
-	    {
-	            title = "Snow? (overrides weather and fog)";
-	            values[] = {0,1};
-	            texts[] = {"No","Yes"};
-	            default = 0;
-	    };
 
 // ============================================================================================
 
@@ -222,9 +215,9 @@ class Params
 	class f_param_weather
 	{
 		title = "$STR_f_param_weather";
-		values[] = {0,1,2,3,4,5,6,7,8,9};
-		texts[] = {$STR_f_param_weather_Option0,$STR_f_param_weather_Option1,$STR_f_param_weather_Option2,$STR_f_param_weather_Option3,$STR_f_param_weather_Option4,$STR_f_param_weather_Option5,$STR_f_param_weather_Option6,$STR_f_param_weather_Option7,$STR_f_param_weather_Option8,$STR_f_param_weather_Option11};
-		default = 9;
+		values[] = {0,1,2,3,4,5,6,7,8,9,10,11};
+		texts[] = {$STR_f_param_weather_Option0,$STR_f_param_weather_Option1,$STR_f_param_weather_Option2,$STR_f_param_weather_Option3,$STR_f_param_weather_Option4,$STR_f_param_weather_Option5,$STR_f_param_weather_Option6,$STR_f_param_weather_Option7,$STR_f_param_weather_Option8,$STR_f_param_weather_Option9,$STR_f_param_weather_Option10,$STR_f_param_weather_Option11};
+		default = 11;
 	};
 
 	class f_param_fog
@@ -249,6 +242,14 @@ class Params
 		values[] = {0,1,2,3,4,5,6,7,8};
 		texts[] = {$STR_f_param_timeOfDay_Option0,$STR_f_param_timeOfDay_Option1,$STR_f_param_timeOfDay_Option2,$STR_f_param_timeOfDay_Option3,$STR_f_param_timeOfDay_Option4,$STR_f_param_timeOfDay_Option5,$STR_f_param_timeOfDay_Option6,$STR_f_param_timeOfDay_Option7,$STR_f_param_timeOfDay_Option8};
 		default = 8;
+	};
+
+	class f_param_timeOfYear
+	{
+		title = "$STR_f_param_timeOfYear";
+		values[] = {0,1,2,3,4};
+		texts[] = {$STR_f_param_timeOfYear_Option0,$STR_f_param_timeOfYear_Option1,$STR_f_param_timeOfYear_Option2,$STR_f_param_timeOfYear_Option3,$STR_f_param_timeOfYear_Option4};
+		default = 4;
 	};
 
 // ============================================================================================

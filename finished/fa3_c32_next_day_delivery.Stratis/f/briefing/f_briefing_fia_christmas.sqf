@@ -15,9 +15,8 @@ Made by Ciaran for Folk ARPS.<br/><br/>
 Thanks to:<br/>
 Shado' for allowing me to butcher his crate stealing script.<br/>
 Costno for his briefing for the crate stealing script I butchered.<br/>
-darkChozo for his snow script.
 <br/><br/>
-Begrudgingly ported to FA3 version 3.5.6.
+Begrudgingly ported to FA3 version 3.5.7.
 "]];
 
 // ====================================================================================
