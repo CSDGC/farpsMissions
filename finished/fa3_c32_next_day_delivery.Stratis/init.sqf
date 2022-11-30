@@ -272,9 +272,5 @@ cc_fnc_spawnPatrol = compile preprocessfile "cc\spawnPatrol.sqf";
 	};
 };
 // ====================================================================================
-if (c_param_snow == 1) then {
-[] execVM "snow.sqf";
-};
-// ====================================================================================
 [] execVM "boxes.sqf";
 [] execVM "spawn.sqf";
